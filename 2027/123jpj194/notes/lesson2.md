@@ -89,6 +89,16 @@ catkin_ws/
 
 **搭建工作空间的流程：**
 
+首先需要先进入装有noetic的docker容器：
+
+```bash
+docker run -it --name noetic ros:noetic bash
+```
+
+![docker start -ai noetic](images/docker_start_noetic.png)
+
+- 我先前已创建容器，现在输入docker start -ai noetic进入即可
+
 ```bash
 mkdir -p ~/catkin_ws/src      # 创建工作空间以及src目录
 cd ~/catkin_ws/src
@@ -104,3 +114,5 @@ catkin_create_pkg test_pkg std_msgs rospy roscpp
 ```
 
 - 其中test_pkg是包名，叫别的也行，后面三个是它的依赖
+
+![搭建工作空间的终端截图](images/catkin_workspace_terminal.png)
