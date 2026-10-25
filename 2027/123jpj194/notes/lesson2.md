@@ -95,7 +95,7 @@ catkin_ws/
 docker run -it --name noetic ros:noetic bash
 ```
 
-![docker start -ai noetic](images/docker_start_noetic.png)
+![](images/docker_start_noetic.png)
 
 - 我先前已创建容器，现在输入docker start -ai noetic进入即可
 
