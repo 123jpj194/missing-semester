@@ -115,4 +115,4 @@ catkin_create_pkg test_pkg std_msgs rospy roscpp
 
 - 其中test_pkg是包名，叫别的也行，后面三个是它的依赖
 
-![搭建工作空间的终端截图](images/catkin_workspace_terminal.png)
+![](images/catkin_workspace_terminal.png)
